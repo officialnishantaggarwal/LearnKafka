@@ -1,8 +1,8 @@
 package com.luv2code.learnKafka.user_service.service;
 
+import com.luv2code.learnKafka.event.UserCreatedEvent;
 import com.luv2code.learnKafka.user_service.dto.CreateUserRequestDto;
 import com.luv2code.learnKafka.user_service.entity.User;
-import com.luv2code.learnKafka.user_service.event.UserCreatedEvent;
 import com.luv2code.learnKafka.user_service.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

@@ -1,6 +1,6 @@
 package com.luv2code.learnKafka.notification_service.consumer;
 
-import com.luv2code.learnKafka.user_service.event.UserCreatedEvent;
+import com.luv2code.learnKafka.event.UserCreatedEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
